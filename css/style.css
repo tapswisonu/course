@@ -7,7 +7,7 @@ body {
 /* Hero Section */
 .hero {
   background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-              url('/images/wance-paleri-U35nb07DCM-unsplash-scaled-1.jpg') center/cover no-repeat;
+              url('images/wance-paleri-U35nb07DCM-unsplash-scaled-1.jpg') center/cover no-repeat;
   height: 80vh;
 }
 #searchResults a:hover {
