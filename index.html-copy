@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SP Packaging — Packaging Solutions</title>
+  <meta name="description" content="Manufacturer and supplier of PP/HDPE woven fabric rolls, bags, and packaging solutions. Contact us for samples & enquiry." />
+  <meta name="keywords" content="PP HDPE woven rolls, packaging, woven bags, laminate" />
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- Open Graph (basic) -->
+  <meta property="og:title" content="SP Packaging" />
+  <meta property="og:description" content="Manufacturer and supplier of PP/HDPE woven fabric rolls, bags, and packaging solutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <!-- TOP INFO BAR -->
+  <div class="top-bar d-none d-md-flex align-items-center justify-content-between px-3">
+    <div class="d-flex align-items-center gap-3">
+      <img src="assets/logo-placeholder.png" alt="SP Packaging" class="site-logo" />
+      <div class="company-name">
+        <strong>SP Packaging</strong><br/>
+        <small>Quality Packaging Solutions</small>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center gap-4 top-contact">
+      <div class="contact-item">
+        <i class="bi bi-telephone"></i>
+        <a href="tel:+919909947488">+91 87348 91263 / +91 9374632009</a>
+      </div>
+      <div class="contact-item">
+        <i class="bi bi-envelope-fill"></i>
+        <a href="mailto:info@sppackaging.com">info@sppackaging.com</a>
+      </div>
+      <img src="assets/make-in-india.png" alt="Make in India" class="makeindia ms-3">
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top main-nav">
+    <div class="container-fluid">
+      <a class="navbar-brand d-lg-none" href="#">
+        <img src="assets/logo-placeholder.png" alt="logo" style="height:40px;">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse position-relative" id="mainNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Why Us?</a></li>
+
+          <!-- PRODUCTS with MEGA MENU -->
+          <li class="nav-item dropdown has-mega">
+            <a class="nav-link dropdown-toggle" href="#" id="productsDD" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <div class="dropdown-menu mega-menu p-4" aria-labelledby="productsDD">
+              <div class="row gx-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <ul class="list-unstyled">
+                    <li class="mega-heading">Woven Rolls</li>
+                    <li><a href="product.html">PP/HDPE Woven Fabric Rolls</a></li>
+                    <li><a href="#">Multicolor Printed Rolls</a></li>
+                    <li><a href="#">Leno / Mesh</a></li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <ul class="list-unstyled">
+                    <li class="mega-heading">Bags</li>
+                    <li><a href="#">PP/HDPE Woven Bags</a></li>
+                    <li><a href="#">BOPP Multicolor Woven Bags</a></li>
+                    <li><a href="#">Box Type Bags</a></li>
+                    <li><a href="#">Jumbo Bags</a></li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                  <ul class="list-unstyled">
+                    <li class="mega-heading">Other Products</li>
+                    <li><a href="#">Kraft Paper Laminated Bags</a></li>
+                    <li><a href="#">Shopping Bags</a></li>
+                    <li><a href="#">Tarpaulin</a></li>
+                    <li><a href="#">PP/PE Filler</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link" href="#">Industries</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Enquiry</a></li>
+        </ul>
+
+        <form class="d-flex align-items-center" role="search" onsubmit="return false;">
+          <div class="input-group input-group-sm me-2 d-none d-lg-flex">
+            <input class="form-control" type="search" placeholder="Search product..." aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </div>
+          <a class="btn btn-outline-warning btn-sm d-none d-lg-inline-block" href="product.html">Ask for Sample</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO / PAGE TITLE -->
+  <header class="page-hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1 class="display-6 hero-title">PP/HDPE Woven Fabric Rolls</h1>
+          <nav aria-label="breadcrumb" class="mt-3">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Products</a></li>
+              <li class="breadcrumb-item active" aria-current="page">PP/HDPE Woven Fabric Rolls</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <img src="assets/hero-sample.jpg" alt="PP HDPE roll" class="img-fluid hero-img"/>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SAMPLE CONTENT -->
+  <main class="py-5">
+    <div class="container">
+      <div class="row">
+        <aside class="col-lg-3 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h6 class="fw-bold">Product Categories</h6>
+              <ul class="list-unstyled ms-0">
+                <li><a href="#">PP/HDPE Woven Fabric Rolls</a></li>
+                <li><a href="#">Woven Bags</a></li>
+                <li><a href="#">Jumbo Bags</a></li>
+                <li><a href="#">Tarpaulin</a></li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+
+        <section class="col-lg-9">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card image-card">
+                <img src="assets/roll1.jpg" class="card-img-top" alt="roll image">
+                <div class="card-body">
+                  <h5 class="card-title">PP/HDPE Woven Fabric Rolls</h5>
+                  <p class="card-text">Laminated & unlaminated rolls suitable for industrial packaging.</p>
+                  <a href="product.html" class="btn btn-primary btn-sm">View Details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card image-card">
+                <img src="assets/roll2.jpg" class="card-img-top" alt="roll image">
+                <div class="card-body">
+                  <h5 class="card-title">Multicolor Printed Rolls</h5>
+                  <p class="card-text">Custom printed woven fabric rolls with high-quality inks.</p>
+                  <a href="#" class="btn btn-primary btn-sm">View Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-5">
+
+          <h3>Why choose our products?</h3>
+          <p>We provide high quality packaging material... (sample content)</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div>
+        <strong>SP Packaging</strong><br>
+        <small>Industrial Estate, Vapi, India</small>
+      </div>
+      <div>
+        <small>© <span id="year"></span> All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS + Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Icons for convenience -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>

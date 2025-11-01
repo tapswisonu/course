@@ -1,0 +1,88 @@
+/* ============================
+   🎨 Custom Color Palette
+   ============================ */
+:root {
+  --primary-color: #004aad;
+  --secondary-color: #ffb400;
+  --dark-color: #222;
+  --light-bg: #f8f9fa;
+}
+
+/* ============================
+   🔠 Headings & Typography
+   ============================ */
+h1, h2, h3, h4, h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: var(--primary-color);
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ============================
+   🔘 Custom Button Styles
+   ============================ */
+.custom-btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.custom-btn-primary:hover {
+  background-color: #003680;
+  color: #fff;
+}
+
+.custom-btn-lg {
+  background-color: var(--secondary-color);
+  color: #000;
+  border-radius: 8px;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-btn-lg:hover {
+  background-color: #e69c00;
+  color: white;
+}
+
+/* ============================
+   📱 Responsive Design
+   ============================ */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .custom-btn-lg {
+    font-size: 1rem;
+    padding: 10px 24px;
+  }
+}
